@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amine - Personal Portfolio</title>
+<html lang="">
+	<head>
+		<meta charset="" />
+		<meta name="viewport" content="width=, initial-scale=" />
+		<!-- Internal style -->
+		<style>
+			h1 {
+			  color: aqua;
+			  font: sans-serif;
+              text-align: center;
+			}
+			p {
+			  color: darkblue;
+			  font: small;
+			}
+            .title{
+                color: blue;
+            }
+		</style>
+ <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <title>Amine - Personal Portfolio</title>
     <header>
-        <nav>
+        <img class="logo" src="logo.png" alt="logo"
+        width="50" height="50">
+        <nav class="nav__links">
             <ul>
                 <li>
                     <a href="#home">home</a>
@@ -25,13 +43,14 @@
                 </li>
             </ul>
         </nav>
+        <a class="cta" href="#"><button>contact</button></a>
     </header>
     <main>
     <section id="home">
         <div class="me">
             <img src="me.jpg"alt=me />
         </div>
-        <h1> welcome!</h1>
+        <h1 style="color:aqua"> welcome!</h1>
         <h2>this is my first portfolio </h2>
     </section>
     <section id="about">
@@ -46,7 +65,7 @@
 <section id="work">
     <h1>this is my first code </h1>
     <img src="code.png" alt="my first code">
-    <p> Learning web development is something soooo fun honestly and i'm enjying learning it  so far </p>
+    <p class="rounded"> Learning web development is something soooo fun honestly and i'm enjying learning it  so far </p>
     <h1>this is my first time usinng git bash </h1>
     <video width="370" heught="260" controls>
         <source src="test.mp4" type="video/mp4/"
@@ -68,7 +87,7 @@
         <input type="number" email="number" placeholder="your number">
     </form>
 </section>
-<div>
+<div >
 <h1>contact</h1>
 <uL>
 
@@ -77,6 +96,7 @@
 <li>adress:bizerte </li>
 </uL>
 </div>
+
 </footer>
 
 </body>
